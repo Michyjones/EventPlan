@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function PeopleDashboard() {
-    return (
-        <div>
-            People Dashboard
-        </div>
-    )
+  return (
+      <div className="app">
+    <h1>
+      <div>People Dashboard</div>
+    </h1>
+    </div>
+  );
 }
 
-export default PeopleDashboard
+export default PeopleDashboard;

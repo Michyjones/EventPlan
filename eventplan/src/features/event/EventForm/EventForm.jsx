@@ -53,6 +53,7 @@ class EventForm extends Component {
               <label>Event Title</label>
               <input
                 name="title"
+                type="text"
                 onChange={this.onInputChange}
                 value={event.title}
                 placeholder="Event Title"
